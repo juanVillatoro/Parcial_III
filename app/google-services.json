@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389437815696",
+    "project_id": "autenticacioncorreo-30a31",
+    "storage_bucket": "autenticacioncorreo-30a31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389437815696:android:794313b7fcf3e22b2a5115",
+        "android_client_info": {
+          "package_name": "com.example.parcial_iii_autenticacingooglecorreo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389437815696-00eo4mcb5250rv7e75ri1ffcmhd6rtld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFvjJfZPB1PnmZeCtuwTIJh5maDWV8ZBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389437815696-00eo4mcb5250rv7e75ri1ffcmhd6rtld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

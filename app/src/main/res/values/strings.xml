@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Parcial III</string>
+    <string name="prefs_file">package com.example.parcial_iii_autenticacingooglecorreo.PREFERENCE_FILE_KEY</string>
+
+</resources>
