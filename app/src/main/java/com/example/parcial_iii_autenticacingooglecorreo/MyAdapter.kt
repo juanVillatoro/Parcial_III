@@ -18,23 +18,26 @@ context=parent.context
         return MyHolder(LayoutInflater.from(context).inflate(R.layout.item_view, parent, false))
     }
 
+    override fun getItemCount(): Int =datalist.size
+
     override fun onBindViewHolder(holder: MyHolder, position: Int) {
-val data=datalist[position]
+        val data=datalist[position]
         val userFullNameTextView=holder.itemView.user_full_name
         val userAvatarImgView=holder.itemView.user_avatar
-        val fullName="$(data.firstName) $(data.lastName)"
+        val fullName=" ${data.firstName} ${data.lastName}"
         userFullNameTextView.text=fullName
 
         Picasso.get()
             .load(data.avatar)
             .into(userAvatarImgView)
+
         holder.itemView.setOnClickListener{
             Toast.makeText(context,fullName,Toast.LENGTH_SHORT).show()
-        }
+    }
+
+}
 
 
     }
 
-    override fun getItemCount(): Int =datalist.size
 
-    }
