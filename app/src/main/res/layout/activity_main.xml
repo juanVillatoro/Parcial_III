@@ -27,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Correo Electronico"
         android:inputType="textEmailAddress" />
 
 
@@ -39,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Contraseña"
         android:inputType="textPassword" />
 
     <LinearLayout
@@ -84,7 +86,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/common_google_signin_btn_icon_dark_normal"
-        android:text="Google!"
+        android:text="¡Registrar con Google!"
         app:backgroundTint="@android:color/holo_blue_light" />
 
 
